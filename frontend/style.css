@@ -1,0 +1,70 @@
+body {
+    background-color: aliceblue;
+}
+
+header {
+    background-color: #2e2d2c;
+    padding: 1rem;
+    width: 100%;
+}
+
+header nav ul {
+    list-style: none;
+    /* Remove o ponto da lista no menu de navegação */
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin-right: 2rem;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    border-bottom: 1px solid aqua;
+}
+
+.produtos {
+    margin: 2%;
+}
+
+.produtos__lista {
+    list-style: none;
+    /* Remove o ponto da lista dos produtos */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.produtos__item {
+    max-width: 16rem;
+    text-align: center;
+    padding: 0.7rem;
+    margin: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    width: 100%;
+}
+
+.produtos__item h3 {
+    font-size: 1.5rem;
+}
+
+.produtos__informacoes h4 {
+    font-size: 1.5rem;
+    color: red;
+}
+
+footer {
+    background-color: #2e2d2c;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
